@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="ini.cpp" />
+    <ClCompile Include="astdx.cpp" />
+    <ClCompile Include="earom.cpp" />
+    <ClCompile Include="fileio.cpp" />
+    <ClCompile Include="log.cpp" />
+    <ClCompile Include="POKEY.Cpp" />
+    <ClCompile Include="rawinput.cpp" />
+    <ClCompile Include="winfont.cpp" />
+    <ClCompile Include="winmain.cpp" />
+    <ClCompile Include="dsoundmain.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="dsoundstream.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="mixer.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="wavfile.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="simple_texture.cpp" />
+    <ClCompile Include="emu_vector_draw.cpp" />
+    <ClCompile Include="newfbo.cpp" />
+    <ClCompile Include="texrect2dvbo.cpp" />
+    <ClCompile Include="cpu_6502.cpp">
+      <Filter>CPU</Filter>
+    </ClCompile>
+    <ClCompile Include="glew.c">
+      <Filter>Addins</Filter>
+    </ClCompile>
+    <ClCompile Include="miniz.c">
+      <Filter>Addins</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="log.h" />
+    <ClInclude Include="rawinput.h" />
+    <ClInclude Include="wglew.h" />
+    <ClInclude Include="winfont.h" />
+    <ClInclude Include="ini.h" />
+    <ClInclude Include="fileio.h" />
+    <ClInclude Include="earom.h" />
+    <ClInclude Include="astdx.h" />
+    <ClInclude Include="POKEY.H" />
+    <ClInclude Include="dsoundmain.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="dsoundstream.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="mixer.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="wavfile.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="simple_texture.h" />
+    <ClInclude Include="emu_vector_draw.h" />
+    <ClInclude Include="colordefs.h" />
+    <ClInclude Include="newfbo.h" />
+    <ClInclude Include="texrect2dvbo.h" />
+    <ClInclude Include="cpu_handler.h">
+      <Filter>CPU</Filter>
+    </ClInclude>
+    <ClInclude Include="cpu_6502.h">
+      <Filter>CPU</Filter>
+    </ClInclude>
+    <ClInclude Include="glew.h">
+      <Filter>Addins</Filter>
+    </ClInclude>
+    <ClInclude Include="miniz.h">
+      <Filter>Addins</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Addins</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image_write.h">
+      <Filter>Addins</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Audio">
+      <UniqueIdentifier>{b39d2d4e-e77a-48ca-9b96-49751a3ae2c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CPU">
+      <UniqueIdentifier>{0e657a6e-e4c5-4c35-b75e-902a007d8062}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Addins">
+      <UniqueIdentifier>{ec1227d1-6bb1-4989-bb2a-2bdd4df6ce81}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
