@@ -1,5 +1,5 @@
 # simple_gl_asteroids_deluxe
-A very simple Asteroids Deluxe Emulator
+A very simple Asteroids Deluxe Emulator to show the usage of my 6502 Emulator.
 
 Some code in this is copyright the MAME team. 
 
